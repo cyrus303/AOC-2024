@@ -1,68 +1,47 @@
-# Advent of Code 2019 starter for JS/TS
+# Advent of Code Typescript Template
 
 ## Intro
 
-This repo contains zero-setup environment for [Advent of Code](https://adventofcode.com/2019) challenges, with:
+This Repository is a Typescript Template based on a Template from caderek found [here](https://github.com/caderek/aoc-starter-ts). <br>
+It provides zero-setup environment for challenges, with:
 
 - automatic creation of a challenge template,
 - automatic execution of a challenge code (with reloads),
 - quick utils for testing and reading input from a file.
+
 
 ## Installation
 
 Clone the repo and go to the created folder:
 
 ```
-git clone https://github.com/caderek/aoc-starter-ts.git aoc2019
+git clone https://github.com/NewCeptionDev/AdventOfCodeTemplate-for-TS.git
 ```
 
 ```
-cd aoc2019
+cd AdventOfCodeTemplate-for-TS
 ```
 
-Using NPM:
+Install dependencies:
 
 ```
 npm i
 ```
 
-Using Yarn:
-
-```
-yarn
-```
-
-## Running dev mode
+## Start
 
 ```
 npm start day<N>
-```
-
-or
-
-```
-yarn start day<N>
-```
-
-Example:
-
-```
-yarn start day1
-```
-
-If the day folder does not exist, it will be created from template.
-
-## Join my leaderboard
-
-You can [join](https://adventofcode.com/2019/leaderboard/private) my private leaderboard fo JS/TS programmers:
-
-Code:
-
-```
-107172-b51ab08f
 ```
 
 ## Languages used:
 
 - TypeScript
 - JavaScript
+
+<br>
+<br>
+
+## Repositories for other years of Advent of Code
+I have participated in multiple years of Advent of Code, using multiple languages.<br>
+You can find all of my solution repositories [here](https://github.com/NewCeptionDev?tab=repositories&q=AdventOfCode&type=&language=&sort=).
