@@ -10,6 +10,11 @@ if (!days.includes(day)) {
   cp("-r", "src/template", `src/${day}`)
 }
 
-spawn(/^win/.test(process.platform) ? 'nodemon.cmd' : "nodemon", ["-x", "ts-node", `src/${day}/index.ts`], {
-  stdio: "inherit",
-})
+spawn(
+  /^win/.test(process.platform) ? "nodemon.cmd" : "nodemon",
+  ["-x", "ts-node", `src/${day}/index.ts`],
+  {
+    stdio: "inherit",
+    shell: true,
+  },
+)
