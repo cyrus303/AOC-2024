@@ -69,10 +69,6 @@ const goB = (input: any) => {
   return result.reduce((sum, ele) => (sum += ele))
 }
 
-/* Tests */
-
-// test()
-
 /* Results */
 
 console.time("Time")
@@ -82,3 +78,8 @@ console.timeEnd("Time")
 
 console.log("Solution to part 1:", resultA)
 console.log("Solution to part 2:", resultB)
+
+/* Tests */
+
+test(resultA, 1646452)
+test(resultB, 23609874)
